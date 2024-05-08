@@ -19,3 +19,8 @@ If the client and the server are running on the same port, the client can send a
 But, if we change the port of either the server or the client so that they are different, an error will occur. The client won't be able to send a message to the server, and the server won't be able to broadcast the message to the client.
 
 
+**2.3. Small changes. Add some information to client**
+
+![Screenshot4.png](screenshot/Screenshot4.png)
+
+The result can be achieved by modifying bcast.tx in the server and output text in the client.
